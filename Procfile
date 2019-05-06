@@ -1,1 +1,1 @@
-web: node ./build/build.js && npx http-server www -p $PORT
+web: npx http-server www -p $PORT

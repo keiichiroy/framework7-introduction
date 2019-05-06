@@ -32,6 +32,7 @@
     }
   },
   "scripts": {
+    "build": "node ./build/build.js",
     "build-dev": "cross-env NODE_ENV=development node ./build/build.js",
     "build-prod": "cross-env NODE_ENV=production node ./build/build.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",
